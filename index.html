@@ -81,6 +81,13 @@ body{padding-bottom:72px}
 .chend{display:flex;align-items:center;gap:14px;max-width:760px;margin:38px auto 0;padding:0 18px}
 .chend::before,.chend::after{content:"";flex:1;height:1px;background:#e3e8ef}
 .chend span{font-size:11px;font-weight:700;letter-spacing:.1em;color:#aab4c0;white-space:nowrap}
+.bridge{max-width:760px;margin:44px auto 0;padding:0 18px}
+.bridge a{display:flex;align-items:center;gap:14px;background:#f4f8fd;border:1px solid #d7e4f2;
+ border-radius:14px;padding:18px 18px;text-decoration:none;color:#23405f}
+.bridge a{color:#23405f}
+.bridge .bl{font-weight:700;font-size:14px;color:#23405f;display:block}
+.bridge .bs{font-size:12px;color:#6b7f95;display:block;margin-top:3px}
+.bridge .ba{margin-left:auto;font-weight:700;color:#2a6ab0;flex:none}
 .tabbar{position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-top:1px solid #e3e8ef;padding-bottom:env(safe-area-inset-bottom,0)}
 .tabbar-in{display:flex;gap:6px;overflow-x:auto;padding:9px 12px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .tabbar-in::-webkit-scrollbar{display:none}
@@ -105,7 +112,7 @@ a:focus-visible,.tabs a:focus-visible{outline:3px solid var(--halo-2);outline-of
     <li>アカウントが必要になるのは、<b>チームを作る・大会にエントリーする</b>など、こちらから操作するときだけです。</li>
     <li>大会エントリーは、<b>選手全員の登録がなくても代表者だけで完了できます</b>。エントリー画面で選手の登録を求められたときだけ、出場選手の情報を登録します。</li>
   </ul>
-  <p class="oline">大会を主催する方は <a href="organizer.html">大会主催者向けガイド →</a></p>
+  <p class="oline">大会を主催する方は <a href="https://halosports.github.io/manual_organizer/">大会主催者向けガイド →</a></p>
 </div></div>
 
 <main>
@@ -372,6 +379,7 @@ a:focus-visible,.tabs a:focus-visible{outline:3px solid var(--halo-2);outline-of
   <div class="chend"><span>第05章 ここまで</span></div></section>
 
 </main>
+<div class="bridge"><a href="https://halosports.github.io/manual_organizer/"><span><span class="bl">大会を主催する側になったら</span><span class="bs">大会の作成、エントリーの承認、参加費の管理、当日の試合記録まで。主催者向けガイドにまとめています。</span></span><span class="ba">大会主催者向けガイド →</span></a></div>
 <nav class="tabbar" aria-label="章の一覧"><div class="tabbar-in" id="tabs"><a href="#ch1" data-c="ch1"><span class="tn">01</span>アカウント</a><a href="#ch2" data-c="ch2"><span class="tn">02</span>プロフィール</a><a href="#ch3" data-c="ch3"><span class="tn">03</span>チーム作成</a><a href="#ch4" data-c="ch4"><span class="tn">04</span>メンバー招待</a><a href="#ch5" data-c="ch5"><span class="tn">05</span>大会エントリー</a></div></nav>
 
 <footer><div class="foot-in">
